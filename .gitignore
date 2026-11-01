@@ -52,6 +52,9 @@ dist
 /tsc/cmd/tsc/tsc
 /tsc/tsc
 
+# generated types
+.astro/
+
 # Native compiler outputs
 *.exe
 *.exe~
