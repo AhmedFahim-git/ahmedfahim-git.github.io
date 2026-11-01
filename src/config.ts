@@ -56,6 +56,7 @@ export const siteConfig = {
 			company: "Turing",
 			title: "Team Lead (Google Gemini)",
 			dateRange: "Dec 2024 - Present",
+			description: "In this project, we generated training data for Google's Gemini models, in particular for extending the model's STEM and multimodal capabilities.",
 			bullets: [
 				"Led a team of 40-50 people with 6-7 direct reports.",
 				"Ensure quality and throughput of tasks shared with client.",
@@ -66,6 +67,7 @@ export const siteConfig = {
 			company: "Turing",
 			title: "Machine Learning Engineer (Google Gemini)",
 			dateRange: "Feb 2024 - Nov 2024",
+			description: "In this project, we were responsible for data generation and model evaluation for the data analysis capability of Google Gemini.",
 			bullets: [
 				"Led a team with 6 direct reports.",
 				"Drove model evaluation tasks with multiple teams, and analyze and present findings and insights.",
@@ -76,6 +78,7 @@ export const siteConfig = {
 			company: "Turing",
 			title: "Machine Learning Engineer (R&D Internal)",
 			dateRange: "Jun 2022 - Jan 2024",
+			description: "Turing matches companies looking to hire for remote positions with the best developers from all over the world. As a part of the internal ML Science team, the main task was to improve the performance of a ranking model that matches developers to jobs.",
 			bullets: [
 				"Implemented, productionized and integrated new features into the search ranking model.",
 				"Collaborated with multiple teams to set up pipelines and repositories for cross-functional requests.",
@@ -86,6 +89,7 @@ export const siteConfig = {
 			company: "Omdena Algeria Chapter",
 			title: "Lead ML Engineer (Part-time)",
 			dateRange: "Oct 2022 - Nov 2022",
+			description: "This is an 4-week challenge by the Omdena Algeria chapter to help farmers in Algeria with the climate, and disease and pest control in greenhouses.",
 			bullets: [
 				"Guided a team of collaborators on the validity and correctness of models and analyses.",
 				"Explored ML models to be used in the project.",
@@ -95,6 +99,7 @@ export const siteConfig = {
 			company: "Omdena",
 			title: "Machine Learning Engineer (Part-time)",
 			dateRange: "Mar 2022 - May 2022",
+			description: "This is an 8-week challenge by Voices of Venezuela, to help Venezuelan migrants in Colombia.",
 			bullets: [
 				"Made a Rasa chatbot to detect emergencies, and extract location from user input.",
 				"Set up Doccano for collaboration among team members in annotating data.",
@@ -106,6 +111,7 @@ export const siteConfig = {
 			company: "Omdena Australia Chapter",
 			title: "Machine Learning Engineer (Part-time)",
 			dateRange: "Jan 2022 - Feb 2022",
+			description: "Covid-19 had a big impact of the mental well-being of the Australian population. In this 4-week challenge a chatbot was built and deployed that would help individuals to create habits for general well-being.",
 			bullets: [
 				"Extracted tabular data from excel spreadsheets using pandas, and visualized them using plotly.",
 				"Made a classification algorithm using pytorch to detect emotion from user audio input.",
@@ -118,6 +124,7 @@ export const siteConfig = {
 			company: "Omdena Nigeria Chapter",
 			title: "Machine Learning Engineer (Part-time)",
 			dateRange: "Sep 2021 - Oct 2021",
+			description: "Most of the Nigerian population depend on agriculture for a living. In this project we try to help the Nigerian farmers by using machine learning technologies such as, identifying plant diseases, and assessing the impact of climate change.",
 			bullets: [
 				"Collected datasets for weather analysis, particularly the CRU TS4 dataset.",
 				"Analyzed spatial and temporal distribution of temperature and precipitation across Nigeria.",
