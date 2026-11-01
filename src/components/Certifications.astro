@@ -1,0 +1,87 @@
+---
+import { siteConfig } from "../config";
+
+const hasCertifications =
+  siteConfig.certifications && siteConfig.certifications.length > 0;
+---
+
+{
+  hasCertifications && (
+  <section id="certifications" class="p-8 sm:p-12 md:p-16 lg:p-24">
+    <div>
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+        <div class="lg:col-span-4">
+          <h2 class="text-3xl sm:text-4xl md:text-5xl xl:text-7xl font-bold text-gray-900">
+            Certifications
+          </h2>
+          <div
+            class="w-[75px] h-[5px] mt-2 rounded-full"
+            style={`background-color: ${siteConfig.accentColor}`}
+          />
+        </div>
+
+        <div class="lg:col-span-9 lg:col-start-4 lg:row-start-2">
+          <div class="space-y-8">
+            {siteConfig.certifications.map((certification) => (
+              <div class="bg-white rounded-lg shadow-sm border border-gray-100 p-4 sm:p-5 md:p-6 hover:shadow-md transition-shadow duration-300">
+                <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3">
+                  <div>
+                    <h3 class="text-lg sm:text-xl font-semibold text-gray-900">
+                      {certification.name}
+                    </h3>
+
+                    <p
+                      class="text-base sm:text-lg mt-1"
+                      style={`color: ${siteConfig.accentColor}`}
+                    >
+                      {certification.organization}
+                    </p>
+                  </div>
+
+                  <div class="text-xs sm:text-sm text-gray-500 sm:text-right shrink-0">
+                    <p>
+                      Issued: {certification.issueDate}
+                    </p>
+
+                    {certification.expirationDate && (
+                      <p class="mt-1">
+                        Expires: {certification.expirationDate}
+                      </p>
+                    )}
+                  </div>
+                </div>
+
+                {certification.url && (
+                  <a
+                    href={certification.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="inline-flex items-center gap-2 mt-4 text-sm font-medium hover:underline"
+                    style={`color: ${siteConfig.accentColor}`}
+                  >
+                    View Certificate
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M7 17 17 7" />
+                      <path d="M7 7h10v10" />
+                    </svg>
+                  </a>
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    )
+  }
