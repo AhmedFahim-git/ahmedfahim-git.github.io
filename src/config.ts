@@ -2,6 +2,7 @@ export const siteConfig = {
   name: "Ahmed Fahim",
   title: "Machine Learning Engineer",
   description: "Portfolio website of Ahmed Fahim",
+  location: "Dhaka, Bangladesh",
   accentColor: "#1d4ed8",
   social: {
     email: "afahim03@yahoo.com",
