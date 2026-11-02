@@ -107,32 +107,32 @@ export const siteConfig = {
         "Made first draft of chatbot design.",
       ],
     },
-    {
-      company: "Omdena Australia Chapter",
-      title: "Machine Learning Engineer (Part-time)",
-      dateRange: "Jan 2022 - Feb 2022",
-      description: "Covid-19 had a big impact of the mental well-being of the Australian population. In this 4-week challenge a chatbot was built and deployed that would help individuals to create habits for general well-being.",
-      bullets: [
-        "Extracted tabular data from excel spreadsheets using pandas, and visualized them using plotly.",
-        "Made a classification algorithm using pytorch to detect emotion from user audio input.",
-        "Made a Python script to convert Mental Health related FAQs into training data for Rasa chatbot.",
-        "Made a Rasa chatbot that can answer mental health related FAQs.",
-        "Made chatbot interface using Streamlit and deployed it on Streamlit Sharing.",
-      ],
-    },
-    {
-      company: "Omdena Nigeria Chapter",
-      title: "Machine Learning Engineer (Part-time)",
-      dateRange: "Sep 2021 - Oct 2021",
-      description: "Most of the Nigerian population depend on agriculture for a living. In this project we try to help the Nigerian farmers by using machine learning technologies such as, identifying plant diseases, and assessing the impact of climate change.",
-      bullets: [
-        "Collected datasets for weather analysis, particularly the CRU TS4 dataset.",
-        "Analyzed spatial and temporal distribution of temperature and precipitation across Nigeria.",
-        "Calculated the Standardized Precipitation-Evapotranspiration Index (SPEI) drought index for Nigeria.",
-        "Analyzed trends in temperature, precipitation, and SPEI across Nigeria using the Modified Mann Kendall test.",
-        "Made streamlit app to present findings to stakeholders.",
-      ],
-    },
+    // {
+    //   company: "Omdena Australia Chapter",
+    //   title: "Machine Learning Engineer (Part-time)",
+    //   dateRange: "Jan 2022 - Feb 2022",
+    //   description: "Covid-19 had a big impact of the mental well-being of the Australian population. In this 4-week challenge a chatbot was built and deployed that would help individuals to create habits for general well-being.",
+    //   bullets: [
+    //     "Extracted tabular data from excel spreadsheets using pandas, and visualized them using plotly.",
+    //     "Made a classification algorithm using pytorch to detect emotion from user audio input.",
+    //     "Made a Python script to convert Mental Health related FAQs into training data for Rasa chatbot.",
+    //     "Made a Rasa chatbot that can answer mental health related FAQs.",
+    //     "Made chatbot interface using Streamlit and deployed it on Streamlit Sharing.",
+    //   ],
+    // },
+    // {
+    //   company: "Omdena Nigeria Chapter",
+    //   title: "Machine Learning Engineer (Part-time)",
+    //   dateRange: "Sep 2021 - Oct 2021",
+    //   description: "Most of the Nigerian population depend on agriculture for a living. In this project we try to help the Nigerian farmers by using machine learning technologies such as, identifying plant diseases, and assessing the impact of climate change.",
+    //   bullets: [
+    //     "Collected datasets for weather analysis, particularly the CRU TS4 dataset.",
+    //     "Analyzed spatial and temporal distribution of temperature and precipitation across Nigeria.",
+    //     "Calculated the Standardized Precipitation-Evapotranspiration Index (SPEI) drought index for Nigeria.",
+    //     "Analyzed trends in temperature, precipitation, and SPEI across Nigeria using the Modified Mann Kendall test.",
+    //     "Made streamlit app to present findings to stakeholders.",
+    //   ],
+    // },
   ],
   certifications: [
     {
